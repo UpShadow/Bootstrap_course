@@ -32,18 +32,26 @@ header, .navbar {
 
 .navbar-brand {
     padding: 0;
-    color: white;
+    color: #FFF;
 }
 
 .navbar-brand:hover {
-    color: white;
+    color: #FFF;
 }
 
 #navbar-links a {
-    color: white;
+    color: #FFF;
 }
 
-.navbar-extend-lg .navbar-nav .nav-link {
+.navbar-extend-lg {
+    padding: 1rem .8rem;
+}
+
+.navbar-nav{
+    padding: 1rem .8rem;
+}
+
+.nav-link {
     padding: 1rem .8rem;
     color: white;
 }
